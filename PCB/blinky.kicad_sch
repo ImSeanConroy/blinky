@@ -1015,28 +1015,28 @@
 		(uuid "3a071574-ce2c-4db7-b219-02bc8b33637e")
 	)
 	(junction
+		(at 99.06 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "542c842b-3bfb-409c-8840-482b9958e63f")
+	)
+	(junction
+		(at 91.44 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f395c73-d812-48b7-9fa7-5e8d941b3919")
+	)
+	(junction
 		(at 120.65 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "750c87a8-1825-43d7-84c8-73e226a119ce")
 	)
 	(junction
-		(at 99.06 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "774d0306-d37c-495e-a64e-a3e68589ec3f")
-	)
-	(junction
 		(at 91.44 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77b6a7ba-8c8b-4546-96f3-ac065b485f97")
-	)
-	(junction
-		(at 91.44 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "839955d3-fdbb-4288-9b36-cdff27e3704f")
 	)
 	(junction
 		(at 101.6 60.96)
@@ -1051,10 +1051,10 @@
 		(uuid "a885d5b9-5279-4c4d-9bfc-689ab5ef1045")
 	)
 	(junction
-		(at 111.76 74.93)
+		(at 111.76 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bdc3c535-f4f0-430b-9c45-e6660ad5a0ce")
+		(uuid "d32cbdb7-1e7f-4833-abb1-d00b8f060818")
 	)
 	(junction
 		(at 99.06 40.64)
@@ -1065,16 +1065,6 @@
 	(no_connect
 		(at 116.84 71.12)
 		(uuid "16cfdad5-9c5e-415f-9ee0-d24a81ec0d44")
-	)
-	(wire
-		(pts
-			(xy 111.76 74.93) (xy 111.76 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09268471-7cab-4713-8cec-bd79725b67a5")
 	)
 	(wire
 		(pts
@@ -1168,17 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 71.12) (xy 111.76 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a4be5d3-3416-4c6c-a716-5849e3eefe8e")
-	)
-	(wire
-		(pts
-			(xy 99.06 74.93) (xy 111.76 74.93)
+			(xy 99.06 76.2) (xy 111.76 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1248,6 +1228,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 71.12) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c9c9e9-bf4e-4125-a4aa-72f27d7eae47")
+	)
+	(wire
+		(pts
 			(xy 99.06 40.64) (xy 111.76 40.64)
 		)
 		(stroke
@@ -1258,7 +1248,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 74.93) (xy 99.06 74.93)
+			(xy 91.44 72.39) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab827147-fcfa-452e-8ec6-6b7011b23a87")
+	)
+	(wire
+		(pts
+			(xy 91.44 76.2) (xy 99.06 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1278,6 +1278,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 76.2) (xy 111.76 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ac0b2d-f2b0-4a6a-90ed-f155ee4a96be")
+	)
+	(wire
+		(pts
 			(xy 101.6 60.96) (xy 101.6 63.5)
 		)
 		(stroke
@@ -1285,16 +1295,6 @@
 			(type default)
 		)
 		(uuid "ccf0b25c-ee60-4d59-bab5-196b944a9edc")
-	)
-	(wire
-		(pts
-			(xy 91.44 72.39) (xy 91.44 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd93d963-97f1-46e5-a00a-0feef92b27ce")
 	)
 	(wire
 		(pts
@@ -1328,7 +1328,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 74.93) (xy 91.44 74.93)
+			(xy 76.2 76.2) (xy 91.44 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +1338,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 74.93) (xy 76.2 62.23)
+			(xy 76.2 76.2) (xy 76.2 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 92.4052 72.39 0)
 			(effects
 				(font
@@ -1549,7 +1549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Blinky:S8211-46R"
 			(at 76.2 58.166 90)
 			(effects
 				(font
@@ -1619,7 +1619,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -1755,7 +1755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 89.662 48.26 90)
 			(effects
 				(font
@@ -1825,7 +1825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 89.662 58.42 90)
 			(effects
 				(font
@@ -1895,7 +1895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 129.032 66.04 90)
 			(effects
 				(font
@@ -1939,7 +1939,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 99.06 74.93 180)
+		(at 99.06 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1948,7 +1948,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3c50bc6-df27-4734-8365-846219bb6577")
 		(property "Reference" "#FLG02"
-			(at 99.06 76.835 0)
+			(at 99.06 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +1957,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 99.06 80.01 0)
+			(at 99.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +1965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 74.93 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +1974,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 74.93 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +1983,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 99.06 74.93 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 114.3 53.34 0)
 			(effects
 				(font
