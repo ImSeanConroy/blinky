@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "2b26be62-3322-4fd9-a553-ea836d094036")
 	(paper "A5")
+	(title_block
+		(title "Getting to Blinky")
+		(date "2025-06-22")
+		(rev "0.1")
+	)
 	(lib_symbols
 		(symbol "Blinky:7555"
 			(exclude_from_sim no)
