@@ -2,6 +2,8 @@
 
 Complete design files for a 7555 timer–based LED blinking PCB, built with SMD components, and created using KiCad.
  
+![Project Image](.github/repo-img.png)
+
 ## Getting Started
 
 1. **Open the Project** - Open the `.kicad_pro` file in KiCad to view the project.
@@ -9,9 +11,8 @@ Complete design files for a 7555 timer–based LED blinking PCB, built with SMD 
 3. **Customize or Export** - Make any modifications and export the Gerber files for fabrication.
 4. **Order the PCB** - Submit the Gerber files to your preferred PCB manufacturer.
 5. **Get the Components** - Purchase the components from the BOM and a compatible board.
-6. **3D Print the Case** - Download the STL files for your chosen configuration and print them on a 3D printer.
-7. **Assemble the Hardware** - Solder the components and assemble the board and case.
-8. **Upload the Firmware** - Connect the board via USB and upload the firmware.
+6. **Assemble the Hardware** - Solder the components and assemble the board and case.
+7. **Upload the Firmware** - Connect the board via USB and upload the firmware.
 
 ## Contributing
 
